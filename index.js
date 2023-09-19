@@ -23,7 +23,7 @@ function App(){
     ]);
 
     return (<>
-            {todos.map((todo,i) => <div key={i}>{todo.text}</div>)}
+            {todos.map((todo,i) => <div className="todo" key={i}>{todo.text}</div>)}
         </>);
 }
 
