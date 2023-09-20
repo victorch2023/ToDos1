@@ -32,7 +32,7 @@ function App(){
     }
 
     const removeTodo = e => {
-        const index = number(e.target.id);
+        const index = Number(e.target.id);
         let temp = [...todos];
         temp.splice(index,1);
         setTodos(temp);
